@@ -50,11 +50,11 @@ footer {
     }
     .three {
         @extend %div; 
-        background:$social-media (0 - (38px * 2)) 0;
+        background:$social-media (0 - 76px) 0;
     }
     .four {
         @extend %div; 
-        background:$social-media (0 - (38px * 3)) 0;
+        background:$social-media (0 - 114px) 0;
     }
 }
 

@@ -41,7 +41,7 @@
     }
 
     #products {
-        width: (100% / 2);
+        width: (100%/2);
         float: left;
         
         @include break(959px) {
