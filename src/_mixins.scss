@@ -1,3 +1,7 @@
+@mixin font-size($font-size: 1em) {
+    font-size: $font-size;
+}
+
 @mixin backgroundImage($image: false, $backgroundColor: false, $repeat: false, $position: false, $size: false, $height: false, $width: false) {
     @if $image {
         background: $image
@@ -35,14 +39,14 @@
         }
 		li {
             display:inline;
-            font-size:0.8em;
+            @include font-size(0.8em);
             margin-right:10px;
             @include break(959px) {
-                font-size:1em;
+                @include font-size(1em);
                 margin:0 10px;
             }
             @include break(767px) {
-                font-size:0.8em;
+                @include font-size(0.8em);
                 margin:0 5px;
             }
 			a {

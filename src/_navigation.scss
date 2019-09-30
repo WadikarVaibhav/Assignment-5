@@ -26,7 +26,7 @@ nav {
         text-align:center;
     }
     @include break(459px) {
-        font-size:0.8em;
+        @include font-size(2em);
         margin:0 5px;
     } 
 }
