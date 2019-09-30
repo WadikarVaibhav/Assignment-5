@@ -1,23 +1,32 @@
-nav {
-    width: 540px;
+
+figure {
+    @include backgroundImage($background-logo-img, false, no-repeat, 0 50px, auto);
     height: 190px;
+    width: 400px;
     float: left;
-    text-align: right;
-    ul {
-        list-style-type:none;
-        margin-top:95px;
-        li {
-            display:inline;
-            font-size:0.8em;
-            margin-right:10px;
-            a {
-                color:#E65C43;
-                text-decoration:none;
-                letter-spacing:-0.01em;
-                &:hover {
-                    color:#FFF;
-                } 
-            }
-        }
+    display:block;
+    margin: 0;
+    @include break(959px) {
+        width:inherit;
+        height:140px;
+        float: none;
+        background-position:center;
     }
+    @include break(459px) {
+        background-size:contain;
+        height:100px;
+    }  
+}
+nav {
+    @include header-nav();
+    @include break(959px) {
+        width:inherit;
+        height:50px;
+        float: none;
+        text-align:center;
+    }
+    @include break(459px) {
+        font-size:0.8em;
+        margin:0 5px;
+    } 
 }

@@ -1,5 +1,7 @@
-$body-color: red;
-
-body {
-    color: $body-color;
-}
+@import 'mixins';
+@import 'variables';
+@import 'base';
+@import 'navigation';
+@import 'header';
+@import 'content';
+@import 'footer';
