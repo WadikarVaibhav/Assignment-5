@@ -1,6 +1,6 @@
 
 figure {
-    @include backgroundImage($background-logo-img, false, no-repeat, 0 50px, auto);
+    @include bg-images($background-logo-img, false, no-repeat, 0 50px, auto);
     height: 190px;
     width: 400px;
     float: left;

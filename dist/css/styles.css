@@ -215,16 +215,6 @@ header {
         margin: 0 2%;
         float: none; } }
 
-.greybar {
-  background-color: #F5F6F6;
-  height: 90px;
-  width: 100%;
-  clear: both;
-  padding-top: 30px; }
-  @media screen and (max-width: 459px) {
-    .greybar {
-      display: none; } }
-
 footer {
   background: #30353D;
   height: 120px;
@@ -264,3 +254,13 @@ footer {
     background: url("../images/social-media.png") -76px 0; }
   .social-media .four {
     background: url("../images/social-media.png") -114px 0; }
+
+.greybar {
+  background-color: #F5F6F6;
+  height: 90px;
+  width: 100%;
+  clear: both;
+  padding-top: 30px; }
+  @media screen and (max-width: 459px) {
+    .greybar {
+      display: none; } }

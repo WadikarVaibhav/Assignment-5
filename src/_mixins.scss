@@ -2,7 +2,7 @@
     font-size: $font-size;
 }
 
-@mixin backgroundImage($image: false, $backgroundColor: false, $repeat: false, $position: false, $size: false, $height: false, $width: false) {
+@mixin bg-images($image: false, $backgroundColor: false, $repeat: false, $position: false, $size: false, $height: false, $width: false) {
     @if $image {
         background: $image
     };
