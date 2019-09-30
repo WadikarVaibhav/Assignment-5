@@ -1,7 +1,9 @@
+//mixin for font size
 @mixin font-size($font-size: 1em) {
     font-size: $font-size;
 }
 
+//mixin for background image
 @mixin bg-images($image: false, $backgroundColor: false, $repeat: false, $position: false, $size: false, $height: false, $width: false) {
     @if $image {
         background: $image
@@ -26,6 +28,7 @@
     };
 }
 
+//mixin for header nav
 @mixin header-nav($float: left, $width: 540px, $height: 190px, $color: $red) {
     float:$float;
     text-align: right;
@@ -58,6 +61,7 @@
 	}
 }
 
+//mixin for break
 @mixin break($arg) {
     @media screen and (max-width: $arg) {
         @content;

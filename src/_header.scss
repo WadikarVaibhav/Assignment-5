@@ -1,3 +1,4 @@
+//styles for header tag
 header {
     width:inherit;
     clear: both;
@@ -56,7 +57,7 @@ header {
     }
 
     #header-image  {
-        @include bg-images($background-header-img,false, no-repeat, center, contain);
+        @include bg-images($bg-header,false, no-repeat, center, contain);
         height: auto;
         width: 100%;
         padding-top: 70%;

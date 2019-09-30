@@ -1,6 +1,6 @@
-
+//style for figure
 figure {
-    @include bg-images($background-logo-img, false, no-repeat, 0 50px, auto);
+    @include bg-images($bg-logo, false, no-repeat, 0 50px, auto);
     height: 190px;
     width: 400px;
     float: left;
@@ -17,6 +17,8 @@ figure {
         height:100px;
     }  
 }
+
+//styles for navbar
 nav {
     @include header-nav();
     @include break(959px) {

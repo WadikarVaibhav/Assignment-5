@@ -1,3 +1,4 @@
+//footer styles
 footer {    
     background:$footer-bg-color;
     height: 120px;
@@ -24,6 +25,7 @@ footer {
     }
 }
 
+//social media styles
 .social-media {
     height: 1uto; 
     width: 165px;
@@ -40,22 +42,23 @@ footer {
     }
     .one {
         @extend %div; background:
-        $social-media-img 0 0;
+        $social-media 0 0;
     }
     .two {
         @extend %div; 
-        background:$social-media-img (0 - 38px) 0;
+        background:$social-media (0 - 38px) 0;
     }
     .three {
         @extend %div; 
-        background:$social-media-img (0 - (38px * 2)) 0;
+        background:$social-media (0 - (38px * 2)) 0;
     }
     .four {
         @extend %div; 
-        background:$social-media-img (0 - (38px * 3)) 0;
+        background:$social-media (0 - (38px * 3)) 0;
     }
 }
 
+//styes for greybar
 .greybar {
     background-color: $footer-color;
     height: 90px;
@@ -65,7 +68,6 @@ footer {
     
     @include break(459px) {
         display:none;
-    } 
-
+    }
 }
 

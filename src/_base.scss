@@ -1,3 +1,4 @@
+//main styles
 main {
     height: auto; 
     width: 940px;
@@ -14,8 +15,9 @@ main {
     }   
 }
 
+//styles for body
 body {
-    @include bg-images($background-img, $white, repeat-x);
+    @include bg-images($bg-img, $white, repeat-x);
     font-family: $font-body;
     @include font-size(1em);
     line-height:2em;
